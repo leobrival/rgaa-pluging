@@ -1,0 +1,65 @@
+{
+  "name": "rgaa-plugin-marketplace",
+  "owner": {
+    "name": "Leo Brival",
+    "email": "leo@brival.fr",
+    "url": "https://github.com/leobrival"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace for digital accessibility and RGAA standards expertise",
+    "version": "1.0.0",
+    "homepage": "https://github.com/leobrival/rgaa-pluging",
+    "repository": "https://github.com/leobrival/rgaa-pluging",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "rgaa-expert",
+      "description": "RGAA 4.1 Expert Agent - Comprehensive digital accessibility guidance",
+      "version": "1.0.0",
+      "author": "Leo Brival",
+      "homepage": "https://github.com/leobrival/rgaa-pluging",
+      "repository": "https://github.com/leobrival/rgaa-pluging",
+      "license": "MIT",
+      "keywords": [
+        "accessibility",
+        "rgaa",
+        "wcag",
+        "audit",
+        "digital-accessibility"
+      ],
+      "category": "accessibility",
+      "source": {
+        "type": "github",
+        "repo": "leobrival/rgaa-pluging"
+      },
+      "agents": [
+        "pluging/agents/rgaa.md"
+      ]
+    },
+    {
+      "name": "rgaa-audit",
+      "description": "RGAA Audit Workflow - Structured accessibility compliance auditing",
+      "version": "1.0.0",
+      "author": "Leo Brival",
+      "homepage": "https://github.com/leobrival/rgaa-pluging",
+      "repository": "https://github.com/leobrival/rgaa-pluging",
+      "license": "MIT",
+      "keywords": [
+        "accessibility",
+        "audit",
+        "rgaa",
+        "wcag",
+        "compliance"
+      ],
+      "category": "accessibility",
+      "source": {
+        "type": "github",
+        "repo": "leobrival/rgaa-pluging"
+      },
+      "commands": [
+        "pluging/commands/audit-rgaa.md"
+      ]
+    }
+  ]
+}
